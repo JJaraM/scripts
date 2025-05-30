@@ -65,3 +65,8 @@ sudo systemctl enable prometheus
 
 # Log useful information
 echo "Prometheus is visible at http://localhost:9090"
+
+# Dont forget to add your job
+#  - job_name: "vm_node_exporter"
+#    static_configs:
+#      - targets: ['192.168.0.36:9100', '192.168.0.37:9100
