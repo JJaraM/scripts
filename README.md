@@ -22,3 +22,9 @@ wget -qO- https://raw.githubusercontent.com/JJaraM/scripts/refs/heads/main/ssh.s
 ```bash
 wget -qO- https://github.com/JJaraM/scripts/blob/main/grafana.sh | bash
 ```
+
+## Start all VMs
+
+```bash
+wget -qO- https://raw.githubusercontent.com/JJaraM/scripts/refs/heads/main/start_vms.sh | bash
+```
