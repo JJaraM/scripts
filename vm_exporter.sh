@@ -39,8 +39,8 @@ WantedBy=multi-user.target
 EOF
 
 # Start the service with systemd and verify it runs
-sudo systemctl daemon-reload
-sudo systemctl start node_exporter && sudo journalctl -f --unit node_exporter
+sudo systemctl daemon-reexec
+sudo systemctl enable --now node_exporter
 
 # Open Firewall Port
 sudo ufw allow 9100
