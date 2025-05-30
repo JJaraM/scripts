@@ -16,3 +16,9 @@ wget -qO- https://raw.githubusercontent.com/JJaraM/scripts/refs/heads/main/vm_ex
 ```bash
 wget -qO- https://raw.githubusercontent.com/JJaraM/scripts/refs/heads/main/ssh.sh | bash
 ```
+
+## Grafana
+
+```bash
+wget -qO- https://github.com/JJaraM/scripts/blob/main/grafana.sh | bash
+```
