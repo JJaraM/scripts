@@ -11,3 +11,8 @@ wget -qO- https://raw.githubusercontent.com/JJaraM/scripts/main/prometheus.sh | 
 ```bash
 wget -qO- https://raw.githubusercontent.com/JJaraM/scripts/refs/heads/main/vm_exporter.sh | bash
 ```
+
+## Openssh-server
+```bash
+wget -qO- https://raw.githubusercontent.com/JJaraM/scripts/refs/heads/main/ssh.sh | bash
+```
